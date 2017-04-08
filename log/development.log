@@ -8,3 +8,5 @@ Started GET "/" for ::1 at 2015-11-16 16:12:00 -0600
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/admin/.rvm/gems/ruby-2.1.2/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
 Completed 200 OK in 48ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: Defining a route where `to` is a controller without an action is deprecated. Please change `to: 'hello_world.html.erb'` to `controller: 'hello_world.html.erb'`. (called from block in <top (required)> at /home/alishaan7/code/labs/rails-hello-world-lab-cb-gh-000/config/routes.rb:10)
+DEPRECATION WARNING: Defining a route where `to` is a controller without an action is deprecated. Please change `to: 'hello_world.html.erb'` to `controller: 'hello_world.html.erb'`. (called from block in <top (required)> at /home/alishaan7/code/labs/rails-hello-world-lab-cb-gh-000/config/routes.rb:10)
