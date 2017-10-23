@@ -8,3 +8,30 @@ Started GET "/" for ::1 at 2015-11-16 16:12:00 -0600
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/admin/.rvm/gems/ruby-2.1.2/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
 Completed 200 OK in 48ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 104.235.162.227 at 2017-10-23 04:32:03 +0000
+Cannot render console from 104.235.162.227! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticController#hello_world as HTML
+  Rendered static/hello_world.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 868ms (Views: 858.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 104.235.162.227 at 2017-10-23 04:32:04 +0000
+Cannot render console from 104.235.162.227! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 104.235.162.227 at 2017-10-23 04:32:04 +0000
+Cannot render console from 104.235.162.227! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 104.235.162.227 at 2017-10-23 04:32:04 +0000
+Cannot render console from 104.235.162.227! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 104.235.162.227 at 2017-10-23 04:32:04 +0000
+Cannot render console from 104.235.162.227! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 104.235.162.227 at 2017-10-23 04:32:04 +0000
+Cannot render console from 104.235.162.227! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
