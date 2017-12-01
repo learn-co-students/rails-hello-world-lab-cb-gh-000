@@ -13,9 +13,3 @@ require 'rails_helper'
 RSpec.describe StaticHelper, type: :helper do
   pending "add some examples to (or delete) #{__FILE__}"
 end
-
-
-describe 'routing is working properly' do
-    visit "/hello_world"
-    expect(page).to have_css("h1", text: "Hello World")
-end
