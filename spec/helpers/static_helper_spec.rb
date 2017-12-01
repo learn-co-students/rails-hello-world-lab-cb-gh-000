@@ -11,5 +11,10 @@ require 'rails_helper'
 #   end
 # end
 RSpec.describe StaticHelper, type: :helper do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe 'routing is working properly' do
+    it 'on the /hello_world page' do
+      visit "hello_world"
+      expect(page).to have_css("h1", text: "Hello World")
+    end
+  end
 end
